@@ -25,4 +25,11 @@
     <scope>test</scope>
 </dependency>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.in28minutes.maven</groupId>
+			<artifactId>junit-example</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
