@@ -15,9 +15,9 @@ public class Principal {
 		        System.out.println("Introduzca el código promocional (nopro, mitad, meno5, o 5porc):");
 		        String codigoDescuento = scanner.next();
 
-		        double importeIVA = Iva.calcularIVA(baseImponible, tipoImpuesto);
+		        double importeIVA = Iva.calcularImpuesto(baseImponible, tipoImpuesto);
 		        double precioConImpuestos = baseImponible + importeIVA;
-		        double precioFinalConDescuento = Iva.aplicarPromocion(precioConImpuestos, codigoDescuento);
+		        double precioFinalConDescuento = Iva.aplicarDescuento(precioConImpuestos, codigoDescuento);
 
 		    }
 		}
